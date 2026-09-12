@@ -28,15 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtSearch = new System.Windows.Forms.TextBox();
-            this.btnBuscar = new System.Windows.Forms.Button();
             this.panIngresoDatos = new System.Windows.Forms.Panel();
+            this.txtFechaContratacion = new System.Windows.Forms.DateTimePicker();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtDireccion = new System.Windows.Forms.TextBox();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
+            this.txtNit = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnGrabar = new System.Windows.Forms.Button();
+            this.txtFechaNacimiento = new System.Windows.Forms.DateTimePicker();
             this.lblCumpleaños = new System.Windows.Forms.Label();
             this.txtApellido = new System.Windows.Forms.TextBox();
-            this.Apellido = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
+            this.Apellido = new System.Windows.Forms.Label();
             this.lblNumeroID = new System.Windows.Forms.Label();
             this.txtDpi = new System.Windows.Forms.TextBox();
             this.dgvEmpleados = new System.Windows.Forms.DataGridView();
@@ -46,38 +53,15 @@
             this.btnImprimir = new System.Windows.Forms.Button();
             this.btnAyuda = new System.Windows.Forms.Button();
             this.comboI1 = new Capa_Vista_ComboI.ComboI();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtNit = new System.Windows.Forms.TextBox();
-            this.txtTelefono = new System.Windows.Forms.TextBox();
-            this.txtDireccion = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtFechaNacimiento = new System.Windows.Forms.DateTimePicker();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtFechaContratacion = new System.Windows.Forms.DateTimePicker();
             this.cmbTipoEmpleado = new System.Windows.Forms.ComboBox();
             this.cmbEstadoEmpleado = new System.Windows.Forms.ComboBox();
+            this.btnBuscar = new System.Windows.Forms.Button();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.panIngresoDatos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmpleados)).BeginInit();
             this.SuspendLayout();
-            // 
-            // txtSearch
-            // 
-            this.txtSearch.Location = new System.Drawing.Point(33, 12);
-            this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(736, 22);
-            this.txtSearch.TabIndex = 0;
-            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
-            // 
-            // btnBuscar
-            // 
-            this.btnBuscar.Location = new System.Drawing.Point(775, 12);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(75, 32);
-            this.btnBuscar.TabIndex = 1;
-            this.btnBuscar.Text = "Buscar";
-            this.btnBuscar.UseVisualStyleBackColor = true;
-            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // panIngresoDatos
             // 
@@ -103,6 +87,71 @@
             this.panIngresoDatos.Size = new System.Drawing.Size(305, 550);
             this.panIngresoDatos.TabIndex = 2;
             // 
+            // txtFechaContratacion
+            // 
+            this.txtFechaContratacion.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.txtFechaContratacion.Location = new System.Drawing.Point(24, 438);
+            this.txtFechaContratacion.Name = "txtFechaContratacion";
+            this.txtFechaContratacion.Size = new System.Drawing.Size(247, 22);
+            this.txtFechaContratacion.TabIndex = 16;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(24, 419);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(82, 16);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "Contratacion";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(30, 305);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(64, 16);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "Direccion";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(30, 248);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(61, 16);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "Telefono";
+            // 
+            // txtDireccion
+            // 
+            this.txtDireccion.Location = new System.Drawing.Point(24, 324);
+            this.txtDireccion.Name = "txtDireccion";
+            this.txtDireccion.Size = new System.Drawing.Size(248, 22);
+            this.txtDireccion.TabIndex = 12;
+            // 
+            // txtTelefono
+            // 
+            this.txtTelefono.Location = new System.Drawing.Point(29, 267);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(248, 22);
+            this.txtTelefono.TabIndex = 11;
+            // 
+            // txtNit
+            // 
+            this.txtNit.Location = new System.Drawing.Point(28, 223);
+            this.txtNit.Name = "txtNit";
+            this.txtNit.Size = new System.Drawing.Size(248, 22);
+            this.txtNit.TabIndex = 10;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(30, 204);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(29, 16);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "NIT";
+            // 
             // btnGrabar
             // 
             this.btnGrabar.Location = new System.Drawing.Point(60, 493);
@@ -112,6 +161,14 @@
             this.btnGrabar.Text = "Grabar";
             this.btnGrabar.UseVisualStyleBackColor = true;
             this.btnGrabar.Click += new System.EventHandler(this.btnGrabar_Click);
+            // 
+            // txtFechaNacimiento
+            // 
+            this.txtFechaNacimiento.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.txtFechaNacimiento.Location = new System.Drawing.Point(24, 381);
+            this.txtFechaNacimiento.Name = "txtFechaNacimiento";
+            this.txtFechaNacimiento.Size = new System.Drawing.Size(247, 22);
+            this.txtFechaNacimiento.TabIndex = 7;
             // 
             // lblCumpleaños
             // 
@@ -129,15 +186,6 @@
             this.txtApellido.Size = new System.Drawing.Size(247, 22);
             this.txtApellido.TabIndex = 5;
             // 
-            // Apellido
-            // 
-            this.Apellido.AutoSize = true;
-            this.Apellido.Location = new System.Drawing.Point(30, 132);
-            this.Apellido.Name = "Apellido";
-            this.Apellido.Size = new System.Drawing.Size(57, 16);
-            this.Apellido.TabIndex = 4;
-            this.Apellido.Text = "Apellido";
-            // 
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
@@ -153,6 +201,15 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(248, 22);
             this.txtNombre.TabIndex = 2;
+            // 
+            // Apellido
+            // 
+            this.Apellido.AutoSize = true;
+            this.Apellido.Location = new System.Drawing.Point(30, 132);
+            this.Apellido.Name = "Apellido";
+            this.Apellido.Size = new System.Drawing.Size(57, 16);
+            this.Apellido.TabIndex = 4;
+            this.Apellido.Text = "Apellido";
             // 
             // lblNumeroID
             // 
@@ -235,83 +292,10 @@
             // 
             // comboI1
             // 
-            this.comboI1.Location = new System.Drawing.Point(25, 40);
+            this.comboI1.Location = new System.Drawing.Point(33, 40);
             this.comboI1.Name = "comboI1";
-            this.comboI1.Size = new System.Drawing.Size(744, 22);
+            this.comboI1.Size = new System.Drawing.Size(736, 22);
             this.comboI1.TabIndex = 9;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(30, 204);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(29, 16);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "NIT";
-            // 
-            // txtNit
-            // 
-            this.txtNit.Location = new System.Drawing.Point(28, 223);
-            this.txtNit.Name = "txtNit";
-            this.txtNit.Size = new System.Drawing.Size(248, 22);
-            this.txtNit.TabIndex = 10;
-            // 
-            // txtTelefono
-            // 
-            this.txtTelefono.Location = new System.Drawing.Point(29, 267);
-            this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(248, 22);
-            this.txtTelefono.TabIndex = 11;
-            // 
-            // txtDireccion
-            // 
-            this.txtDireccion.Location = new System.Drawing.Point(24, 324);
-            this.txtDireccion.Name = "txtDireccion";
-            this.txtDireccion.Size = new System.Drawing.Size(248, 22);
-            this.txtDireccion.TabIndex = 12;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(30, 248);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 16);
-            this.label2.TabIndex = 13;
-            this.label2.Text = "Telefono";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(30, 305);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 16);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "Direccion";
-            // 
-            // txtFechaNacimiento
-            // 
-            this.txtFechaNacimiento.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.txtFechaNacimiento.Location = new System.Drawing.Point(24, 381);
-            this.txtFechaNacimiento.Name = "txtFechaNacimiento";
-            this.txtFechaNacimiento.Size = new System.Drawing.Size(247, 22);
-            this.txtFechaNacimiento.TabIndex = 7;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(24, 419);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(82, 16);
-            this.label4.TabIndex = 15;
-            this.label4.Text = "Contratacion";
-            // 
-            // txtFechaContratacion
-            // 
-            this.txtFechaContratacion.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.txtFechaContratacion.Location = new System.Drawing.Point(24, 438);
-            this.txtFechaContratacion.Name = "txtFechaContratacion";
-            this.txtFechaContratacion.Size = new System.Drawing.Size(247, 22);
-            this.txtFechaContratacion.TabIndex = 16;
             // 
             // cmbTipoEmpleado
             // 
@@ -329,12 +313,50 @@
             this.cmbEstadoEmpleado.Size = new System.Drawing.Size(121, 24);
             this.cmbEstadoEmpleado.TabIndex = 11;
             // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Location = new System.Drawing.Point(775, 12);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(75, 32);
+            this.btnBuscar.TabIndex = 1;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.Location = new System.Drawing.Point(33, 12);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(736, 22);
+            this.txtSearch.TabIndex = 0;
+            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(283, 365);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(101, 16);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "Tipo Empleado";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(461, 365);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(116, 16);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "Estado Empleado";
+            // 
             // FrmEmpleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(1245, 574);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.cmbEstadoEmpleado);
             this.Controls.Add(this.cmbTipoEmpleado);
             this.Controls.Add(this.comboI1);
@@ -359,9 +381,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox txtSearch;
-        private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Panel panIngresoDatos;
         private System.Windows.Forms.DataGridView dgvEmpleados;
         private System.Windows.Forms.Label lblCumpleaños;
@@ -389,6 +408,10 @@
         private System.Windows.Forms.DateTimePicker txtFechaContratacion;
         private System.Windows.Forms.ComboBox cmbTipoEmpleado;
         private System.Windows.Forms.ComboBox cmbEstadoEmpleado;
+        private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.TextBox txtSearch;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
         //private Capa_Vista_ComboI.ComboI comboI1;
     }
 }
