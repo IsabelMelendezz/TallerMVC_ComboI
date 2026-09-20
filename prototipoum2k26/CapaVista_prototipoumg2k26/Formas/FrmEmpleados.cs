@@ -147,5 +147,10 @@ namespace CapaVista_prototipoumg2k26.Formas
                         frmReporteEmpleados reporte = new frmReporteEmpleados();
                         reporte.Show();
         }
+
+        private void btnAyuda_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, "C:\\CAPACITACION\\TallerMVC_ComboI\\AyudaRisko\\CapaRisko.chm", "Cliente.html");
+        }
     }
 }

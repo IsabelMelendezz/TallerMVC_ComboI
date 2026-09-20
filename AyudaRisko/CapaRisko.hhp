@@ -1,0 +1,21 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=CapaRisko.chm
+Contents file=CapaRisko.hhc
+Default Window=CapaRisko
+Default topic=Cliente.html
+Display compile progress=No
+Language=0x100a Español (Guatemala)
+
+[WINDOWS]
+CapaRisko="Capacitacion Risko","CapaRisko.hhc",,"MDI.html","MDI.html","Cliente.html","Cliente","Vehiculo.html","Vehiculo",0x23520,,0xc387e,,,,,,,,0
+
+
+[FILES]
+Cliente.html
+MDI.html
+Vehiculo.html
+Venta.html
+
+[INFOTYPES]
+
