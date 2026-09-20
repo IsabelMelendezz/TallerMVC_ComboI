@@ -1,0 +1,95 @@
+commit 159c1f7e63d64b36f16ddd52bf4d066fac680d46
+Merge: b627890 f21980f
+Author: LOURDES ISABEL MELENDEZ PINEDA <157136767+IsabelMelendezz@users.noreply.github.com>
+Date:   Sun Sep 20 12:21:12 2026 -0600
+
+    Merge pull request #4 from IsabelMelendezz/desarrollo_ayudas
+    
+    Subiendo ayudas para usuario
+
+commit f21980fc84ea728a52eb4d5c87d7c48b149abded
+Author: IsabelMelendezz <lmelendezp@miumg.edu.gt>
+Date:   Sun Sep 20 12:20:35 2026 -0600
+
+    Subiendo ayudas para usuario
+
+commit b627890b92c4526c44a6fbf8d0d0688dffcb11b8
+Merge: c07206c a414ecb
+Author: LOURDES ISABEL MELENDEZ PINEDA <157136767+IsabelMelendezz@users.noreply.github.com>
+Date:   Sat Sep 19 23:18:08 2026 -0600
+
+    Merge pull request #3 from IsabelMelendezz/desarrollo_reportes
+    
+    Subiendo mis reportes
+
+commit a414ecba3bdd7fbb49763e9c2b4efe9309cf3fe9
+Author: IsabelMelendezz <lmelendezp@miumg.edu.gt>
+Date:   Sat Sep 19 23:17:22 2026 -0600
+
+    Subiendo mis reportes
+
+commit c07206cc8fbc2696a424a25415f755d05462dd0b
+Author: IsabelMelendezz <lmelendezp@miumg.edu.gt>
+Date:   Sat Sep 19 22:23:23 2026 -0600
+
+    Arreglando capas y conexion ODBC
+
+commit fcaf7ad3be920ded4e4e31165bd943e5922484f9
+Author: IsabelMelendezz <lmelendezp@miumg.edu.gt>
+Date:   Fri Sep 11 23:12:15 2026 -0600
+
+    Subiendo mi log
+
+commit 531757f4411c33f3d7285a5d8ae83374c7abd4ca
+Author: IsabelMelendezz <lmelendezp@miumg.edu.gt>
+Date:   Fri Sep 11 22:50:17 2026 -0600
+
+    Subiendo ejecutable
+
+commit a5de07648a041effabf338587a999db6605a90d8
+Author: IsabelMelendezz <lmelendezp@miumg.edu.gt>
+Date:   Fri Sep 11 22:43:17 2026 -0600
+
+    Subiendo capa controlador
+
+commit 9272435b5648fdb886f9a33d79535f245a9ad690
+Author: IsabelMelendezz <lmelendezp@miumg.edu.gt>
+Date:   Fri Sep 11 22:32:19 2026 -0600
+
+    Subiendo la capa modelo del comboI
+
+commit eed6142a1f79a5f001899ed5bf3760d4260d76e4
+Merge: 8afdb38 80dba66
+Author: LOURDES ISABEL MELENDEZ PINEDA <157136767+IsabelMelendezz@users.noreply.github.com>
+Date:   Fri Sep 11 22:28:47 2026 -0600
+
+    Merge pull request #2 from IsabelMelendezz/Diseño_Capa_Vista_9959-23-1379
+    
+    Subiendo la capa vista del comboI
+
+commit 80dba666deb01433ddc9271828ad258bdce2ebc1
+Author: IsabelMelendezz <lmelendezp@miumg.edu.gt>
+Date:   Fri Sep 11 22:27:34 2026 -0600
+
+    Subiendo la capa vista del comboI
+
+commit 8afdb38e89a3f4a16bbe194af4963226ffd6ec96
+Merge: e0b84e4 bceeeb7
+Author: LOURDES ISABEL MELENDEZ PINEDA <157136767+IsabelMelendezz@users.noreply.github.com>
+Date:   Fri Sep 11 22:21:54 2026 -0600
+
+    Merge pull request #1 from IsabelMelendezz/Proyecto_Anterior_9959-23-1379
+    
+    Subiendo el modelo vista controlador funcional
+
+commit bceeeb70c842747dd1ce847edb017d793753081e
+Author: IsabelMelendezz <lmelendezp@miumg.edu.gt>
+Date:   Fri Sep 11 22:19:35 2026 -0600
+
+    Subiendo el modelo vista controlador funcional
+
+commit e0b84e4e5f5461e3c52ef6ab8f08628c9f3bb010
+Author: IsabelMelendezz <lmelendezp@miumg.edu.gt>
+Date:   Fri Sep 11 22:11:03 2026 -0600
+
+    first commit
