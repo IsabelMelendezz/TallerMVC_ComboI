@@ -52,13 +52,13 @@
             this.btnNuevo = new System.Windows.Forms.Button();
             this.btnImprimir = new System.Windows.Forms.Button();
             this.btnAyuda = new System.Windows.Forms.Button();
-            this.comboI1 = new Capa_Vista_ComboI.ComboI();
             this.cmbTipoEmpleado = new System.Windows.Forms.ComboBox();
             this.cmbEstadoEmpleado = new System.Windows.Forms.ComboBox();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.comboI1 = new Capa_Vista_ComboI.ComboI();
             this.panIngresoDatos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmpleados)).BeginInit();
             this.SuspendLayout();
@@ -279,6 +279,7 @@
             this.btnImprimir.TabIndex = 7;
             this.btnImprimir.Text = "Imprimir";
             this.btnImprimir.UseVisualStyleBackColor = false;
+            this.btnImprimir.Click += new System.EventHandler(this.btnImprimir_Click);
             // 
             // btnAyuda
             // 
@@ -289,13 +290,6 @@
             this.btnAyuda.TabIndex = 8;
             this.btnAyuda.Text = "Ayuda";
             this.btnAyuda.UseVisualStyleBackColor = false;
-            // 
-            // comboI1
-            // 
-            this.comboI1.Location = new System.Drawing.Point(33, 40);
-            this.comboI1.Name = "comboI1";
-            this.comboI1.Size = new System.Drawing.Size(736, 22);
-            this.comboI1.TabIndex = 9;
             // 
             // cmbTipoEmpleado
             // 
@@ -348,6 +342,13 @@
             this.label6.Size = new System.Drawing.Size(116, 16);
             this.label6.TabIndex = 13;
             this.label6.Text = "Estado Empleado";
+            // 
+            // comboI1
+            // 
+            this.comboI1.Location = new System.Drawing.Point(33, 40);
+            this.comboI1.Name = "comboI1";
+            this.comboI1.Size = new System.Drawing.Size(736, 22);
+            this.comboI1.TabIndex = 9;
             // 
             // FrmEmpleados
             // 
