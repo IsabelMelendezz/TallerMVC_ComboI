@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaControlador_prototipoumg2k26;
+using CapaVista_prototipoumg2k26.Reportes;
 
 namespace CapaVista_prototipoumg2k26.Formas
 {
@@ -139,6 +140,12 @@ namespace CapaVista_prototipoumg2k26.Formas
             cmbEstadoEmpleado.DataSource = empleado.GetEstadosEmpleado();
             cmbEstadoEmpleado.DisplayMember = "NombreEstadoEmpleado";
             cmbEstadoEmpleado.ValueMember = "IdEstadoEmpleado";
+        }
+
+        private void btnImprimir_Click(object sender, EventArgs e)
+        {
+                        frmReporteEmpleados reporte = new frmReporteEmpleados();
+                        reporte.Show();
         }
     }
 }
