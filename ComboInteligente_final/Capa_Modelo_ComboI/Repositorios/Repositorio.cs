@@ -12,7 +12,7 @@ namespace Capa_Modelo_ComboI.Repositorios
         public readonly string connectionString;
         public Repositorio()
         {
-            connectionString = "Dsn=umg_didactica";
+            connectionString = "Dsn=sistema_reparto";
         }
         protected OdbcConnection ObtenerConexion()
         {
